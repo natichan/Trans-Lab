@@ -1,0 +1,22 @@
+body{
+    background-color: #404143;
+}
+.logo{
+    width: 50%;
+    margin: 7em 5em 1em 5em;
+}
+.caja{
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: #faad00;
+}
+.waves-effect{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
