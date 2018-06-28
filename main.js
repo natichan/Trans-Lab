@@ -1,6 +1,6 @@
 const btn = document.getElementById("verSaldo");
 const inputText = document.getElementById("bip")
-const containerTitle = document.getElementById("saldoBip")
+const container = document.getElementById("saldoBip")
 
 // probando con click, sale solo, undefined
 inputText.addEventListener("click", (event) => {
@@ -18,5 +18,5 @@ inputText.addEventListener("click", (event) => {
 })
 
 const renderInfo = data => {
-       containerTitle.innerHTML = data.saldoBip; 
+       container.innerHTML = data.saldoBip; 
       }
