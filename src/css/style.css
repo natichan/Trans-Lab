@@ -1,16 +1,18 @@
 body{
-    background-color: #dcdddf;
+    background-color: #404143;
 }
 .logo{
     width: 50%;
-    margin: 7em 5em 1em 5em;
+    margin: 4em 5em 1em 5em;
 }
 .caja{
     background-color: white;
 }
-h2, {
+h2 {
     text-align: center;
     color: #faad00;
+    font-size: 40px;
+    padding: 2%;
 }
 .waves-effect{
     width: 100%;
@@ -19,9 +21,6 @@ h2, {
 }
 p{
     color: white;
-}
-.nav-wrapper{
-    background-color: #404143;
 }
 header, main, footer {
     padding-left: 300px;

@@ -7,8 +7,18 @@ section{
 .nav-wrapper{
     background-color: #404143;
 }
-.center {
+.alCent {
     text-align: center;
     color:white;
     background-color: #faad00;
+}
+.card-panel{
+    padding: 1%;
+}
+.waves-effect{
+    width: 100%;
+    text-align: center;
+}
+.space{
+    margin-top: 50%;
 }
