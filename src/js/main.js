@@ -1,4 +1,5 @@
-const btn = document.getElementById('buttonSaldo')
+const btn = document.getElementById('buttonSaldo');
+const container = document.getElementById('resultado');
 
 btn.addEventListener('click', getBipSaldo = () => {
     let idTarjeta = document.getElementById('saldoBip').value
@@ -9,6 +10,6 @@ btn.addEventListener('click', getBipSaldo = () => {
         let dataBip = Object.values(data)
         let resultTarjeta = dataBip[2];
         dataBip[2] =document.getElementById('saldoBip').value;
-        document.getElementById('resultado').innerHTML= resultTarjeta;
+        container.innerHTML= resultTarjeta;
     })
 })
