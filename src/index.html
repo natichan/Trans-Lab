@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">    <title>Trans Lab</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
 </head>
 <body>
     <section class="container inicio">   
         <div class="row">
           <div class="col s12">
-            <img class="logo" src="docs/imagen.png" alt="">
+            <img class="logo" src="../docs/imagen.png" alt="">
             <h2>TRANS-LAB</h2>
           </div>
         </div>
@@ -20,12 +20,12 @@
               <div class="row caja">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">perm_identity</i>
-                  <input id="identity" type="text" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                  <input id="identity" type="text" class="validate">
                   <label for="icon_identity">E-mail</label>
                 </div>
                 <div class="input-field col s12">
                   <i class="material-icons prefix">lock_outline</i>
-                  <input id="password" type="password" class="validate" pattern="[0-9]{8}" >
+                  <input id="password" type="password" class="validate">
                   <label for="icon_password">Contraseña</label>
                 </div>
                 <div class="col s12 amber darken-2">
@@ -37,13 +37,13 @@
               <p>¿Olvidaste tu contraseña?</p>
             </div>
             <div class="col s12">
-              <p>¿NO TIENES CUENTA?REGÍSTRATE</p>
+              <p>¿NO TIENES CUENTA? REGÍSTRATE</p>
             </div>
     </section>
   
-       
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="main.js"></script>
-    <script src="app.js"></script>
+    <script src="../src/js/main.js"></script>
+    <script src="../src/js/app.js"></script>
 </body>
 </html>

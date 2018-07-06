@@ -1,5 +1,5 @@
 body{
-    background-color: #404143;
+    background-color: #dcdddf;
 }
 .logo{
     width: 50%;
@@ -20,8 +20,9 @@ h2, {
 p{
     color: white;
 }
-
-
+.nav-wrapper{
+    background-color: #404143;
+}
 header, main, footer {
     padding-left: 300px;
   }
