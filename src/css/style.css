@@ -2,8 +2,8 @@ body{
     background-color: #404143;
 }
 .logo{
-    width: 50%;
-    margin: 4em 5em 1em 5em;
+    width: 40%;
+    margin: 2em 5em 0em 6em;
 }
 .caja{
     background-color: white;
@@ -11,8 +11,8 @@ body{
 h2 {
     text-align: center;
     color: #faad00;
-    font-size: 40px;
-    padding: 2%;
+    font-size: 30px;
+    margin: 0 auto;
 }
 .waves-effect{
     width: 100%;
