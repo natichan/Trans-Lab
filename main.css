@@ -1,6 +1,12 @@
 body{
     background-color: #dcdddf;
+    text-align: center;
 }
 .nav-wrapper{
     background-color: #404143;
+}
+.center {
+    text-align: center;
+    color:white;
+    background-color: #faad00;
 }
