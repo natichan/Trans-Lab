@@ -10,17 +10,36 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
-    <ul id= "slide-out" class="side-nav">
-      <li><a class="waves-effect" href="#">VER SALDO</a></li>
-      <li><a class="waves-effect" href="#">CALCULAR TARIFA</a></li>
-      <li><a class="waves-effect" href="#">PERFIL</a></li>
-      <li><a class="waves-effect" href="#">PREGUNTAS FRECUENTES</a></li>
-    </ul>
-          <a class="btn" data-activates="slide-out"><i class="material-icons">Menu</i></a>
+    <nav>
+      <div class="nav-wrapper">
+          <a href="#" class="brand-logo">TRANS-LAB</a>
+      </div>
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view"></div></li>
+        <li><a href="#!">VER SALDO</a></li>
+        <li><a href="#!">CALCULAR TARIFA</a></li>
+        <li><a href="#!">PERFIL</a></li>
+        <li><a href="#!">PREGUNTAS FRECUENTES</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+    </nav>
+    <section class="container">
+        <div class="row">
+          <div class="col s12">
+              <ul>
+                <li><a href="#!">VER SALDO</a></li>
+                <li><a href="#!">CALCULAR TARIFA</a></li>
+                <li><a href="#!">PERFIL</a></li>
+                <li><a href="#!">PREGUNTAS FRECUENTES</a></li>
+              </ul>
+          </div>
+        </div>
+      </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-        <script src="main.js"></script>
-        <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>
