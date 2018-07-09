@@ -1,11 +1,7 @@
-//Sidenav
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
+// no funciona let valEmail = '[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$';
+// no funciona let valPass = '[0-9]{8}';
 
-let valEmail = '[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$';
-let valPass = '[0-9]{8}';
-
+// inicio de sesión, localStorage
 saveUserPassword = () => { 
   document.getElementById('buttonValidate').addEventListener('click', redirect = () => {
   if((document.getElementById('identity').value === '') || (document.getElementById('password').value === '')) {
